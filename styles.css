@@ -439,6 +439,7 @@ footer{
     display: flex;
     flex-direction: row;
     height: fit-content;
+    font-family: Open Sans;
     padding: .5rem;
     justify-content: space-between;
     align-items: center;
