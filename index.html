@@ -28,23 +28,32 @@
         <p>MrDee</p>
     </div>
         <nav>
-            <a href="#home">Home
+            <ul>
+     <a href="#home">Home
             <a href="#about">About Me</a>
             <a href="#skill">Skills</a>
             <a href="#projects">Projects</a>
+
+     <a class="button" href="">Contact Me</a>
+            </ul>
+       
+
+            <div class="hamburger-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
         </nav>
-            <button type="button">
-            Contact Me
-            </button>
+
 </header>
 <!-- Main -->
 <main>
 <!-- First Page -->
-<section id="home" class="intro"> 
+<!-- <section id="home" class="intro"> 
     <div>
         <p> WELCOME !</p>
     </div> 
-</section>
+</section> -->
 <!-- Second Page -->
 <section id="about" class="welcome-page">
 
@@ -355,9 +364,9 @@
     <div>
         <p>I'm Interested In</p>
      <form action="">
-        <input type="text" placeholder="Your Name">
-        <input type="email" placeholder="Email">
-        <input type="text" placeholder="Please Describe What You Want ">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Email" required>
+        <input type="text" placeholder="Please Describe What You Want " required>
      </form>
      <button type="submit">
         Send Message
