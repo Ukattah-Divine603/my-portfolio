@@ -18,7 +18,7 @@ header{
     right: 0;
     width: auto;
     height: 4rem;
-    background-color: #e9e9e9;
+    background-color: #c0c0c0;
     border-radius: 2rem;
     backdrop-filter: blur(10px);
     margin: 1rem 3rem 1rem 3rem;
@@ -155,7 +155,7 @@ nav a:hover{
     justify-content: space-between;
     align-items: center;
     height: fit-content;
-    margin-top: -1rem;
+    margin-top: 5rem;
     flex-direction: row;
     padding: 1rem 3.5rem 1rem 3.5rem;
 }
@@ -187,22 +187,22 @@ scale: 1.05;
 }
 .about-me{
 max-width: 768px;
-padding-top: 5rem;
+padding-top: 6rem;
 text-align: right;
 display: flex;
 flex-direction: column;
 font-family: Open Sans;
 }
-.about-me h4{
- font-family: Montserrat;
+.about-me h1{
+ font-family: Open Sans;
 font-weight: 600;
 font-size: 2rem;
 color: #265791;
 font-weight: 500;
 }
 
-.about-me h5{
-margin-top: -2rem;
+.about-me h2{
+margin-top: -1rem;
 font-family: Open Sans;
 font-size: 3rem;
 }
@@ -213,7 +213,7 @@ color: #265791;
 }
 
 
-.about-me h6{
+.about-me p{
 font-family: Open Sans;
 font-size: 1.5rem;
 font-weight: 300;
@@ -227,13 +227,8 @@ flex-direction: row;
 justify-content: space-around;
 align-items: center;
 text-align: left;
-margin-top: -2rem;
 color: white;
 
-}
-
-lord-icon:hover{
-color: #ffffff;
 }
 
 .social-icons div{
@@ -269,11 +264,11 @@ display: flex;
 flex-direction: column;
 align-items: center;
 color: white;
-p{
+h2{
 font-size: 3rem;
 font-weight: 400;
 }
-h3{
+p{
 margin-top: -1rem;
 font-size: 1.5rem;
 font-weight: 200;
@@ -295,7 +290,7 @@ align-items: center;
 justify-content: center;
 display: flex;
 flex-direction: column;
-
+padding: 1rem;
 color: white;
 background-color: #00295a;
 .f-class{
@@ -310,16 +305,13 @@ svg{
 font-size: 3rem;
 }
 }
-.f-class-details{
-padding:0 1rem 0 1rem ;
-margin-top: -1rem;
-}
+
 }
 .card:hover{
 cursor: pointer;
 }
 }
-.f-class h3{
+.f-class p{
      font-family: Montserrat;
     font-weight: lighter;
 }
@@ -354,13 +346,14 @@ max-width: 350px;
 background-color: rgb(10, 62, 126);
 overflow: hidden;
 box-shadow: 0 0 10px #022b5c7e;
-aspect-ratio: 10/10;
+aspect-ratio: 4/4;
 font-family: Open Sans;
 border-radius: 1.5rem;
 align-items: center;
 justify-content: top;
 display: flex;
 flex-direction: column;
+padding-bottom: 1rem;
 color:#ffffff;
 
 }
@@ -392,6 +385,11 @@ display: flex;
 flex-direction: row;
 justify-content: space-between;
 align-items: center;
+margin-top: -1rem;
+}
+.f-class-details{
+padding:0 1rem 0 1rem ;
+margin-top: -1rem;
 }
 .top-de h3, a{
 width: fit-content;
@@ -407,6 +405,7 @@ gap: 5px;
 border-radius: .5rem;
 background-color: #011a38;
 }
+
 }
 
 .contact-me{
@@ -415,7 +414,8 @@ display: flex;
 align-items: center;
 justify-content: center;
 padding: 0rem 2rem;
-height: 100vh;
+height: fit-content;
+padding: 4rem 1rem;
 }
 
 .contact-me p{
@@ -430,6 +430,7 @@ color: #fff;
 font-family: Open Sans;
 justify-content: space-around;
 flex-wrap: wrap;
+gap: 1rem;
 width: 100%;
 }
 
