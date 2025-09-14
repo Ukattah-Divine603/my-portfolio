@@ -18,4 +18,19 @@ document.addEventListener('click', (e) => {
         bars.forEach(bar => bar.classList.remove('active'));
     }
 });
+window.addEventListener("load", function () {
+  const preloader = document.getElementById("preloader");
+  const content = document.getElementById("content");
+
+  setTimeout(() => {
+    preloader.style.opacity = "0";   // fade out effect
+    preloader.style.transition = "opacity 1s ease";
+
+    setTimeout(() => {
+      preloader.style.display = "none";
+      content.style.display = "block";
+    }, 1000);
+  }, 15000); // 15 seconds minimum
+});
+
 
