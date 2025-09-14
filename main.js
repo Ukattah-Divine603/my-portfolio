@@ -30,7 +30,7 @@ window.addEventListener("load", function () {
       preloader.style.display = "none";
       content.style.display = "block";
     }, 1000);
-  }, 15000); // 15 seconds minimum
+  }, 5000); // 15 seconds minimum
 });
 
 
