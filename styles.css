@@ -25,6 +25,8 @@ body{
   z-index: 9999;
 }
 
+
+
 /* Loader wrapper */
 .loader {
   position: relative;
@@ -256,6 +258,15 @@ font-weight: 600;
 font-size: 2rem;
 color: #265791;
 font-weight: 500;
+}
+
+.about-me .frr{
+     font-family: Open Sans;
+font-weight: 600;
+font-size: 2rem;
+color: #265791;
+font-weight: 500;
+text-align: right;
 }
 
 .about-me h2{
